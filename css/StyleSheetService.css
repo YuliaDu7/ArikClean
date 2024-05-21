@@ -1,0 +1,260 @@
+﻿body {
+    text-align:center;
+}
+.service_head {
+    background-image: url('../images2/green-sofa-white-living-room-with-free-space.jpg');
+    /* background-size: cover;*/
+    max-height: 100%
+}
+
+
+/*row of "השירותים שלנו*/
+
+.hero_area #headerService{
+    margin:0px; 
+
+}
+
+/*כותרת - ללחוץ על כפתור לפי סוג השירות*/
+h5 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+/*כפתורי הקפצה לניקוי ספות*/
+.but {
+    background-color: white;
+    color: #46b6b4;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: white /*#46b6b4*/;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 0px;
+}
+
+
+
+/*מצב נייד
+*/@media only screen and (max-width: 1000px){
+
+    .header_service h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+        font-family: Calibri, Arial;
+        font-weight: bold;
+        color: black;
+    }
+    
+    /*p {
+      
+        font-size: 20px;
+        text-align: center;
+        font-weight:100;
+        padding:0px;
+        margin:0px;
+        font-weight:bold*/
+        /*   rgba(0,0,0,0)*/
+    /*}*/
+    .sapot_service h1 {
+        font-weight: bold;
+        padding: 0;
+    }
+    .listclean {
+        margin: auto
+    }
+
+        .listclean p {
+            text-align: center;
+            font-weight: bold;
+            color: #29807f;
+            font-size: 20px;
+        }
+
+        .listclean h2 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            color: #29807f;
+            margin-bottom: 20px;
+        }
+    .sapot_service img {
+        width: 100%;
+        margin:0;
+    }
+    .car_service p {
+      
+      
+        font-size: 20px;
+        text-align: center;
+        /*   rgba(0,0,0,0)*/
+    }
+    .sapot_service{
+        font-size:20px;
+    }
+ 
+
+       
+} 
+
+/*מצב מסך מלא
+*/
+@media only screen and (min-width: 1000px) {
+    .list_tafrit {
+        font-size: 23px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header_service h1 {
+        font-size: 70px;
+        padding-bottom: 20px;
+        font-family: Calibri, Arial;
+        font-weight: bold;
+        color: black;
+    }
+    .listclean{
+        margin:auto
+    }
+    .listclean p {
+        text-align: center;
+        font-weight: bold;
+        color:#29807f;
+        font-size:20px;
+        
+    }
+    .listclean h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size:30px;
+        color:#29807f;
+        margin-bottom:20px;
+    }
+    p {
+        
+        text-align: center;
+        font-weight: 100;
+        padding: 0px;
+        margin: 0px;
+        font-weight: bold
+        /*   rgba(0,0,0,0)*/
+    }
+    .sapot_servicep {
+        margin-bottom: 50px;
+        /*            background-image: linear-gradient(to right,rgba(0,0,0,0), #ffffff);
+        */ border-radius: 10px;
+        padding-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+        /*   rgba(0,0,0,0)*/
+    }
+    .sapot_service h1 {
+        font-weight: bold;
+        padding-top: 30px;
+    }
+    .jumbotron {
+        max-width: 100%;
+        
+    }
+    .sapot_service > p {
+        padding: 40px 20px 10px 20px;
+        text-align: center
+    }
+    ol {
+        text-align: right;
+        font-size: 20px;
+    }
+    .sapot_service img {
+        max-height: 100%;
+    }
+    .car_service p {
+        font-size: 20px;
+        text-align: center;
+        /*   rgba(0,0,0,0)*/
+    }
+
+
+
+}
+.other_service {
+    font-size: 20px;
+}
+.lastjum{
+    margin-bottom:0px;
+}
+
+
+.header_service {
+    padding-bottom: 80px;
+}
+
+    .sapot {
+        background-size: cover;
+    }
+
+
+    .header_service {
+        text-align: center;
+    }
+
+  
+
+    .header_service > h1 {
+        padding: 100px 30px 10px 30px;
+    }
+
+    #word {
+        font-weight: bold
+    }
+
+
+
+    
+
+    .car img {
+        margin-top:20px;
+        max-height:80%
+    }
+
+    .car_service h1 {
+        font-weight: bold;
+        color: #29807f;
+        padding-top: 30px;
+        
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+   
+    .tophoto>img{
+        max-height:39%
+    }
+    .listsofa > h4 {
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    h1 {
+        color: #29807f;
+        font-weight: bold;
+    }
+/*    ספות אייקונים 
+*/
+.listclean img {
+    max-width: 50%;
+    max-height: 60%;
+    margin-bottom: 20px;
+}
+
+/*דיב של שירות השטיחים*/
+
+.carpetDiv {
+    padding:75px 0px;
+}
+

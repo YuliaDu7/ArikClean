@@ -1,0 +1,307 @@
+﻿
+body{
+    font-family: 'Freestyle Script';
+}
+/*תמונת רקע */
+.slider_section {
+    background-image: url('../images2/green-sofa-white-living-room-with-free-space.jpg');
+/*    background-size: cover;
+*/ height:100%;
+    background-attachment: fixed;
+}
+
+
+/*
+
+
+
+/*חלק ראשון - כותרת */
+
+
+/*לפני ואחרי הכותרת*/
+/*שורה ראשונה רווח בין התפריט לבין הכותרת*/
+
+/*#head {
+    padding-top: 70px;
+}*/
+
+#firstRow1{
+    height: 70px;
+}
+
+
+/*<!-- שורת רווח אחרי הכותרת -->*/
+.padd {
+    margin-bottom: 40px;
+}
+/**/
+
+
+
+/*כותרת באנגלית*/
+.detail-box h1 {
+    text-align: center;
+    font-family: 'Freestyle Script';
+    font-size: 80px;
+    color: #46b6b4
+}
+
+
+
+.header {
+    padding-bottom: 50px;
+}
+/*למצב אקסטרה לארג*/
+@media only screen and (min-width: 1200px) {
+    .text-logo {
+        padding: 0px 120px 0px 120px;
+        font-weight: bold;
+        color: #46b6b4;
+        border-radius: 10px
+    }
+
+    .detail-box p {
+        text-align: center;
+        font-size: 20px;
+        margin-top:20px;
+    }
+   
+}
+
+
+
+
+
+/*כותרת גירסה נייד*/
+#header_phoneMode {
+    padding: 10px 20px 0px 20px;
+    font-weight: bold;
+    color: #000000;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), #ffffff);
+    border-radius: 10px
+}
+
+/*סרטון בגרסת נייד*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .detail-box h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 80px;
+        color: #46b6b4
+    }
+
+    #videoDiv1, .detail-box {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #videoPhone1 {
+        height: 200px;
+        padding-left: 30px;
+    }
+
+        #videoPhone1 > video {
+            max-width: 100%;
+            max-height:100%;
+            border-radius: 10px;
+            /*ניסיון למרכז את הסרטון באמצע*/
+          /*  padding-left: 8px;*/
+            margin-left: 10px;
+        }
+
+    .slider_section .detail-box {
+        padding-bottom: 50px;
+    }
+  
+}
+#h1_PhoneMode {
+    padding-top: 20px;
+    color: #46b6b4;
+}
+
+
+/*סיום גירסה נייד
+*/
+
+
+/*----------גרסת מדיום ומעלה*/
+@media only screen and (min-width: 500px) {
+    .detail-box p {
+        font-weight: bold;
+        /*מצבע טקסט כהה יותר למצב מדיום*/
+        color: #29807F;
+        /**/
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px;
+    }
+    #boxLarge1 h1 {
+        font-size: 80px;
+    }
+
+
+    #videoDiv1 {
+        /*height: 200px;*/
+        padding-right: 0px;
+        
+        
+    }
+    
+    video {
+        max-width: 50%;
+        max-height: 50%;
+        opacity: 0.9;
+        border-radius: 20px;
+        /*ניסיון למרכז את הסרטון באמצע*/
+/*        padding-left: 8px;*/
+        margin-left: 10px;
+    }
+   
+}
+/*סיום מצב מדיום ומעלה*/
+
+
+/*מצב גדול ומעלה*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 720px) {
+    /*הגדלת הכותרת*/
+    #boxLarge1 h1 {
+        font-size: 120px;
+    }
+    /*צבע טורקיז בהיר יותר לטקסט*/
+    .detail-box p {
+        font-weight: bold;
+        color: #46b6b4;
+        font-weight: bold;
+        text-align: center;
+        font-size:25px;
+    }
+    video {
+        max-width:70%;
+        max-height: 100%;
+        opacity: 0.9;
+        border-radius: 20px;
+        /*ניסיון למרכז את הסרטון באמצע*/
+        /*padding-left: 8px;*/
+        margin-left: 15%;
+    }
+
+}
+
+
+
+/*סיום חלק ראשון*/
+
+
+
+
+/*section   למה לבחור באריקלין - חלק אמצעי?*/
+
+.us_section {
+    background-color: #f8f8f8;
+}
+
+.heading_container h2 {
+    color: #29807F;
+    font-family: 'Segoe UI', Arial;
+}
+/*איקונים*/
+.us_section .us_container .box .img-box img {
+    max-width: 60%;
+}
+
+.iconCleanDiv p, .box > .iconClean1 p, .us_container p{
+    color: black;
+    font-size:25px;
+}
+
+/*לקוחות מרוצים*/
+.cust1 {
+    float:left
+}
+
+
+
+/**/
+/*
+
+
+
+לוגו בצרו קשר*/
+.logoLast{
+    max-width:70%
+}
+
+
+
+
+/*בואו תראו בעצמכם (לפני אחרי)*/
+
+.beforeAfter {
+    padding: 0px 5%;
+}
+
+    .beforeAfter img {
+        max-width: 100%;
+        vertical-align: middle;
+    }
+
+    .beforeAfter .row {
+        margin: 0 auto;
+    }
+
+.beforeAfter {
+}
+
+    .beforeAfter div {
+        padding: 0px;
+    }
+
+.annoyingimg img {
+    margin-left: 10px;
+}
+
+
+
+box {
+    padding-bottom: 40px;
+    margin: 0;
+    max-width:100%;
+}
+.logoLast {
+    max-width: 100%;
+}
+
+
+    .detail-box p{
+        font-size  :25px;
+    }
+
+    .heading_container h2 {
+        padding-bottom: 40px;
+        font-size: 40px;
+    }
+
+video {
+    border: 3px #46b6b4 solid;
+}
+/*עיצובים לתמונות לפני אחרי
+*/ .photo {
+    /*  width: 400px;
+            height: 350px;*/
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+    .photo img {
+        transition: transform 0.25s;
+        max-width: 95%;
+    }
+
+    .photo:hover img {
+        transform: scale(1.1);
+    }
+
+
+
